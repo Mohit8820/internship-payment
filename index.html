@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Payment page</title>
+  </head>
+  <body>
+    <div class="outerBox">
+      <img src="logo.png" alt="" class="logo" />
+      <p>We just don’t vouch for your Internship, we will build your career</p>
+      <div class="innerbox">
+        <div class="grid1">
+          <h2>Internship Track</h2>
+          <h3>Full Stack Web Development</h3>
+          <div class="coupon">
+            <input
+              type="text"
+              name="search"
+              placeholder="Have any coupon code?"
+            />
+            <button id="apply">Apply</button>
+          </div>
+        </div>
+        <div class="grid2">
+          <table>
+            <tr>
+              <td>Initial Price</td>
+              <td>:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;₹ 4,999</td>
+            </tr>
+            <tr>
+              <td>Discount Applied</td>
+              <td>:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-₹ 2,000</td>
+            </tr>
+            <div class="line"></div>
+            <tr>
+              <th>Final Price</th>
+              <th>:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;₹ 2,999</th>
+            </tr>
+          </table>
+        </div>
+        <div class="grid3">
+          <div class="appliedOffer">
+            Limited Period Offer applied
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M12 0c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm-1.25 17.292l-4.5-4.364 1.857-1.858 2.643 2.506 5.643-5.784 1.857 1.857-7.5 7.643z"
+              />
+            </svg>
+          </div>
+          <p>You Save : ₹ 2,000  </span></p>
+        </div>
+      </div>
+      <a href=""
+        ><button class="pay">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+          >
+            <path
+              d="M6 8v-2c0-3.313 2.687-6 6-6 3.312 0 6 2.687 6 6v2h-2v-2c0-2.206-1.795-4-4-4s-4 1.794-4 4v2h-2zm-3 2v14h18v-14h-18z"
+            /></svg
+          >Pay Securely
+        </button></a
+      >
+    </div>
+
+    <footer>
+      <div><img src="100secure.png" alt="" /></div>
+      <div><img src="secure.png" alt="" /></div>
+      <div><img src="Razorpay.png" alt="" /></div>
+    </footer>
+    <script>var apply = document.getElementById("apply");
+      apply.addEventListener("click", function () {
+        apply.textContent = "Applied";
+        apply.style.opacity="0.5";
+      });</script>
+  </body>
+
+</html>
