@@ -228,20 +228,17 @@ footer img {
     font-size: 85%;
     padding-bottom: 0;
     padding-top: 11vh;
-    /* height: 95vh; */
   }
   body {
+    justify-content: flex-start;
     padding: 0 0 2rem;
     height: 89vh;
     background: linear-gradient(176.18deg, #ffffff00 50%, #fff 27.29%);
   }
-  a {
-    margin-bottom: 1rem;
-    margin-top: -1rem;
-  }
   .outerBox {
     width: 100vw;
     margin-bottom: 0;
+    padding-bottom: 2rem;
     border-radius: 4rem 4rem 0 0;
     box-shadow: none;
   }
