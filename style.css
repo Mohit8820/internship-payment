@@ -238,9 +238,11 @@ footer img {
   .outerBox {
     width: 100vw;
     margin-bottom: 0;
-    padding-bottom: 2rem;
     border-radius: 4rem 4rem 0 0;
     box-shadow: none;
+  }
+  .logo {
+    margin: 1rem auto;
   }
   .outerBox p {
     padding: 0 4rem;
